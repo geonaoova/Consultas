@@ -1,12 +1,13 @@
 package controladores;
 
-import formularios.FormCadastrarMedico;
+import formularios.EscolherJanela;
+import formularios.Teste;
 
 public class Principal {
 
 	public static void main(String[] args) {
 		
-		FormCadastrarMedico f = new FormCadastrarMedico();
+		formLogin f = new formLogin();
 	}
 
 }

@@ -4,6 +4,7 @@ import javax.swing.table.DefaultTableModel;
 
 import classes.Consulta;
 import classes.Medico;
+import classes.Usuario;
 
 public class Acao {
 	
@@ -30,6 +31,17 @@ public class Acao {
 		classes.Consulta.consultas.add(c);
 	}
 
+	public void cadastrarUsuario(String usuario, String senha, int nivel) {
+		
+		Usuario u = new Usuario();
+		u.setUsuario(usuario);
+		u.setSenha(senha);
+		u.setNivel(nivel);
+		
+		classes.Usuario.usuarios.add(u);
+		
+	}
+
 	public DefaultTableModel modeloMedicos() {
 		
 		DefaultTableModel modelo = new DefaultTableModel();
@@ -48,4 +60,6 @@ public class Acao {
 		
 		return modelo;
 	}
+
+
 }

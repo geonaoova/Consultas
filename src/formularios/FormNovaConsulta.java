@@ -69,7 +69,7 @@ public class FormNovaConsulta extends JFrame {
 		contentPane.add(formattedTextField);
 		
 		JLabel lblHorarioConsulta = new JLabel("Hor\u00E1rio da Consulta");
-		lblHorarioConsulta.setBounds(235, 71, 109, 14);
+		lblHorarioConsulta.setBounds(225, 71, 109, 14);
 		contentPane.add(lblHorarioConsulta);
 		
 		txtHorarioConsulta = new JTextField();
